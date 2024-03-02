@@ -1,0 +1,126 @@
+/* 
+table content
+============
+1. left section
+2. rigth section[box]
+3. media query for left section
+============
+*/
+
+
+main.flex  {
+    gap: 3rem; 
+    align-items: flex-start;
+}
+
+/* 
+============
+1. left seciont
+============
+*/
+main.flex .left-section{
+    flex-direction: column; 
+     min-width: 20%;
+}
+main.flex .left-section button{
+    max-width:100% ;
+    text-align: center;
+    margin: 0.2rem ;
+    color: white;
+    box-shadow: none;
+    transition: 0.4s;
+    padding: 0.5rem;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+main.flex .left-section button.active{
+    box-shadow: 2px  2px 42px var(--hover) inset;
+    font-weight: 650;
+    letter-spacing: 1px;
+    border: 2px solid black;
+}
+
+
+/* 
+============
+2. rigth seciont
+============
+*/
+main.flex .rigth-section{
+    display: flex;
+    flex-grow: 3;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem 1rem;
+}
+/* ============
+2. rigth seciont [box]
+============
+*/ 
+
+.card .box{
+    padding: 0.5rem;
+}
+
+.light .card {
+    border: 1px solid rgba(0, 0, 0, 0.323);
+}
+.card .box .ttle::first-letter
+{
+  color:var(--hover);
+  text-transform: capitalize;
+}
+
+.card .box .sub-title{
+    color: var(--sub-title);
+    margin: 0.5rem 0;
+}
+.card .flex{
+    font-size: 25px;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.card .flex div{
+    background-color: var(--sub-title);
+    padding: 0.2rem;
+    border-radius: 10px;
+    border: 1px solid var(--sub-title);
+}
+.card .flex div:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+.card{
+    border: 1px solid transparent;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+    border:1px dashed gray;
+}
+.card:hover{
+    border: 1px solid var(--hover);
+    cursor: pointer;
+    transform: scale(1.05) rotate(3deg) !important;
+    opacity: 0.5;
+}
+ 
+
+@media (max-width:700px) {
+    main.flex  {
+         flex-direction: column;
+         align-items: center;
+    }
+    main.flex .left-section{
+        flex-direction: row;
+        flex-wrap: wrap; 
+        width: 100%;
+        justify-content: center;
+        gap: 0;
+    }
+    main.flex .left-section button{
+        width: 40%;
+    }    
+}
+
+ 

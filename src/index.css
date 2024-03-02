@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Cairo:wght@200;300;400;500;600;700;800;1000&family=M+PLUS+Code+Latin:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Oswald:wght@300;400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reem+Kufi:wght@400;600&family=Tilt+Prism&family=Work+Sans:ital,wght@0,500;0,600;1,400;1,500&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+}
+button{
+   all: unset;
+}
+html{
+   font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+ :root{
+    --primary:black;
+    --secondary:rgb(24 24 27);
+    --border:rgb(63 , 63 , 70 , 0.8);
+    --hover:rgb(0, 255, 13);
+    --title:rgb(224 224 245);
+    --sub-title:rgb(160 160 170);
+    --backgheader:rgb(39,39,42);
+ }
+
+ .light {
+  --primary: #333232;  
+  --secondary: #333232;
+  --hover:#EA4343; 
+  --title:#e67e22;
+  --backgheader:#34495eae;
+  --sub-title:rgba(255, 255, 255, 0.551);
+  --border:#34495ea7;
+  --sb-thumb-color:#2ecc71;
+}
+
+
+ 
+ body{
+    background-color: var(--primary);
+    color: white;
+    overflow-x: hidden;
+    position: relative; 
+    --sb-track-color:var(--sb-track-color);
+    --sb-thumb-color: #00ff24;
+    --sb-size: 10px;
+    scrollbar-color: var(--sb-thumb-color) 
+                     var(--sb-track-color); 
+ }
+ 
+/* start scrollbar */
+body::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  }
+  /* end scrollba */
+ .container{
+   padding: 1rem 2rem;
+   width: 80%;
+   margin: 0 auto;
+   background-color: var(--secondary);
+  border-radius:0px 500px;
+ }
+.divider{
+   border-bottom: 1px solid var(--border);
+   margin: 3rem 0;
+}
+/* Define keyframes */
+
+
+/* Apply animation to the scroll button */
+.scroll img{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 6%;
+  transform: rotate(4deg);
+}
+
+ 
+/* start media query  for container */
+@media (max-width:800px) {
+   .container{
+      padding: 0px 1rem ;
+      width: 88%;
+   }
+}
+@media (max-width:500px) {
+   .container{
+      padding: 0px 1rem ;
+      width: 89%;
+   }
+}
+@media (max-width:400px) {
+   .container{
+      padding: 0px 0.5rem ;
+      width: 92%;
+   }
+}
+ /* end media query for container */

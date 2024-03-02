@@ -1,0 +1,21 @@
+
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+}
+ 
+footer .ples img{
+  width: 50%;
+}
+
+@media (max-width:870px) {
+    footer{
+         flex-direction: column;
+         gap: 1rem;
+    }
+}

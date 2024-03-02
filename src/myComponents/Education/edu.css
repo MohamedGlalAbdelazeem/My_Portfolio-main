@@ -1,0 +1,25 @@
+.titl{
+    text-align: center;
+    color: var(--hover);
+    border: 5px double var(--hover);
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 50px  5px;
+    box-shadow: 0 0 30px var(--hover) inset;
+}
+ .edu span{
+    color: gold;
+ }
+.edu h2{
+    margin: 1rem 0;
+    text-decoration: underline;
+    color: rgb(0, 119, 255);
+    padding-bottom: 0.6rem;
+  
+}
+.edu h3 ,h4{
+    margin: 1rem 0;
+    color: gray;
+    padding-bottom: .8rem;
+}

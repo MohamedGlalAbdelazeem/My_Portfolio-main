@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?zf1dhl');
+  src:  url('fonts/icomoon.eot?zf1dhl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?zf1dhl') format('truetype'),
+    url('fonts/icomoon.woff?zf1dhl') format('woff'),
+    url('fonts/icomoon.svg?zf1dhl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-params:before {
+  content: "\e909";
+}
+.icon-equalizer:before {
+  content: "\e909";
+}
+.icon-preferences:before {
+  content: "\e909";
+}
+.icon-settings:before {
+  content: "\e909";
+}
+.icon-options:before {
+  content: "\e909";
+}icon
+.icon-envelope:before {
+  content: "\e908";
+}
+.icon-moon-stroke:before {
+  content: "\e90a";
+}
+.icon-night:before {
+  content: "\e90a";
+}
+.icon-brightness-contrast:before {
+  content: "\e9d6";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-arrow-forward-outline:before {
+  content: "\e907";
+}
+.icon-verified:before {
+  content: "\e91b";
+}
+.icon-chain-broken:before {
+  content: "\e906";
+}
+.icon-github:before {
+  content: "\e900";
+}
+.icon-behance:before {
+  content: "\e901";
+  color: #1769ff;
+}
+.icon-gmail:before {
+  content: "\e902";
+  color: #d14836;
+}
+.icon-linkedin:before {
+  content: "\e90e";
+  color: #0077b5;
+}
+.icon-x:before {
+  content: "\e905";
+}
+.icon-whatsapp:before {
+  content: "\e903";
+  color: #25d366;
+}
+.icon-youtube:before {
+  content: "\e904";
+  color: #f00;
+}

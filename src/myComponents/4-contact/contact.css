@@ -1,0 +1,134 @@
+
+/*
+ table content
+===============
+1. title
+2.lef section
+3.rigth section
+4.medai query
+===============
+*/
+
+
+.flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+/*-----title----- */
+.contact .icon{
+   display: flex;
+   align-items: center;
+   margin: 1rem 0;
+}
+ 
+.contact span{
+color: var(--hover);
+}
+.contact p{
+color: var(--sub-title);
+line-height: 1.8rem;
+}
+
+
+/*-------left section------*/
+.flex form div{
+  margin:2rem 0;
+}
+ 
+
+.flex form label{
+   color: var(--sub-title);
+   margin-right:1rem;
+}
+ 
+.flex form #email , #message{
+   background-color:rgba(63,63, 70, 0.15);
+   width:25rem;
+   height: 2rem;
+   outline: none;
+   border: 2px solid rgba(128, 128, 128, 0.307);
+   color: white;
+   transition: 0.5s;
+} 
+.flex form  #message{
+   resize: both;
+   min-height: 9rem;
+} 
+
+
+.flex form #email:hover ,
+ #message:hover
+{
+  border: 2px solid green;
+} 
+ 
+ 
+.flex form div:nth-of-type(2) 
+{ 
+  display: flex;
+  align-items: center;
+} 
+
+
+.flex form #email{
+   border-radius: 4px;
+} 
+.flex form #message{
+height: 10rem;
+} 
+
+ 
+.flex form button{
+   color: var(--hover);
+   border: 3px solid gray;
+   padding: 0.5rem;
+   border-radius: 10px;
+   max-width: 20%;
+   text-align: center;
+   font-weight: 700;
+}
+.flex form button:hover{
+  color: white;
+  border: 3px solid var(--hover);
+  box-shadow: 2px 2px  10px var(--hover);
+}
+.contactme{
+   width: 300px;
+ }
+
+@media (max-width:665px) {
+   .flex form  {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .flex form .flex  {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+    .flex form .flex label  {
+       margin-bottom: 0.5rem;
+    }
+    .flex form #email , #message{
+      width:18rem;
+    } 
+    .contact{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+     
+}
+
+
+@media (max-width:950px) {
+   .flex.contact {
+     flex-direction: column-reverse;
+   }
+}
+

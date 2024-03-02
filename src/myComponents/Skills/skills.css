@@ -1,0 +1,52 @@
+.skills{
+    overflow: hidden;
+}
+ 
+ .skills .titl{
+    text-align: center;
+    color: var(--hover);
+    border: 5px double var(--hover);
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 50px  5px;
+    box-shadow: 0 0 30px var(--hover) inset;
+
+}
+.skills .imgs img {
+    max-width: 7%;
+    margin: 1rem 1.2rem; 
+    border-radius: 20%;
+    transition: 0.2s;
+    background-color: white;
+    padding: .2rem;
+    border: 5px solid transparent;
+    transition: .5s;
+}
+
+
+.skills .imgs img:hover {
+    transform: scale(1.4) rotate(10deg);
+    border: 5px solid var(--hover);
+    cursor: pointer;
+    box-shadow: 0 0 20px var(--hover) ;
+}
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px ;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:600px) {
+    .skills .imgs img {
+        max-width: 15%;
+        margin: 0 1rem; 
+        border-radius: 20%;
+    }
+    .imgs{
+        gap: 1.1rem;
+    }
+    
+}
