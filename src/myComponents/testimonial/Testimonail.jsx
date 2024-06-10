@@ -5,6 +5,7 @@ import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import rating1 from "../../../public/rating/rate1.png"
 import rating2 from "../../../public/rating/rate2.png"
+import rating3 from "../../../public/rating/rate3.png"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -48,6 +49,9 @@ function Testimonail() {
         </SwiperSlide>
         <SwiperSlide>
             <img src={rating2} alt="" srcset="" />
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={rating3} alt="" srcset="" />
         </SwiperSlide>
         <div className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>
