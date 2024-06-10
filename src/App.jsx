@@ -7,6 +7,7 @@ import Contact from "./myComponents/4-contact/Contact";
 import Footer from "./myComponents/5-footer/Footer";
 
 import { useState, useEffect } from "react";
+import Testimonail from "./myComponents/testimonial/Testimonail";
 
 function App() {
   const [showBtn, setShowtbn] = useState(true);
@@ -32,6 +33,8 @@ function App() {
         <Skills />
         <div className="divider"></div>
         <Main />
+        <div className="divider"></div>
+        <Testimonail />
         <div className="divider"></div>
         <Contact />
         <div className="divider"></div>

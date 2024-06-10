@@ -11,14 +11,14 @@ const Hero = () => {
           <span className="icon-verified"></span>
         </div>
         <h1 className="name">
-          <span>Eng.</span>Mohamed <span>Glal</span> Abdelazeem|
+          <span>Eng.</span>Mohamed <span>Galal</span> Abdelazeem|
         </h1>
-        <h3> Software Developer </h3>
+        <h3> Front-End Developer || wordpress </h3>
         <p className="sub-title">
           As Web Developer specializing in front end development. Experienced
           with all stages of the development cycle for dynamic web projects.
-          Well-versed in numerous programming languages including ReactJs ,
-          JavaScript , jquery , java , HTML5 , CSS3 ....
+          Well-versed in numerous Technology including ReactJs , Redux , React Router 
+          JavaScript , Tailwind , bootstrab  , HTML5 , CSS3 ....
         </p>
         <div className="icons">
           <a

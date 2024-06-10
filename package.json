@@ -21,7 +21,9 @@
     "react-dom": "^18.2.0",
     "react-i18next": "^13.5.0",
     "react-tsparticles": "^2.12.2",
-    "styled-components": "^6.1.8"
+    "styled-components": "^6.1.8",
+    "swiper": "^11.1.4",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",

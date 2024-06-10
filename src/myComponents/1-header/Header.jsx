@@ -56,6 +56,9 @@ const Header = () => {
               <a href="#projects">Projects</a>
             </li>
             <li>
+              <a href="#Testimonails">Testimonails</a>
+            </li>
+            <li>
               <a href="#contact">ContactMe</a>
             </li>
           </ul>
@@ -109,6 +112,9 @@ const Header = () => {
                 <a href="#projects">Projects</a>
               </li>
               <div className="divider menu"></div>
+              <li>
+              <a href="#Testimonails">Testimonails</a>
+            </li>
               <li>
                 <a href="#contact">ContactMe</a>
               </li>

@@ -24,13 +24,15 @@ export default function Skills() {
         >
             <h1 className='titl'>Skills</h1>
             <div className='imgs'>
-            <img src={react} />
+                <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM_ID7MuyUQkf0HDeOt-rQRJzcFwsbwZcumA&s"} />
+                <img src={j} />
+                <img src={js} />
+                <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s"} />
+                <img src={react} />
                 <img src={redux} style={{backgroundColor:"white"}}/>
                 <img src={mui} />
                 <img src={s} />
-                <img src={j} />
                 <img src={p} />
-                <img src={js} />
                 <img src={mdb} />
                 <img src={a} />
                 <img src={html} />
@@ -38,6 +40,7 @@ export default function Skills() {
                 <img src={t} />
                 <img src={boots} />
                 <img src={git} />
+                <img src={"https://images.ctfassets.net/in6v9lxmm5c8/57MXX73Nx2rUnUI730EykA/8d13236943bb46948155f92f2325369e/firebase.png?q=50&fm=webp"} />
                 <img src={hup} style={{backgroundColor:"white"}} />
              </div>
         </section>

@@ -1,6 +1,8 @@
+import { v4 as uuidv4 } from 'uuid';
+
 export const myProjects = [
   {
-    id: 14,
+    id:uuidv4(),
     categoria: "react",
     imgUrl: "/projecs/weather app.png",
     title: "weather By React",
@@ -8,7 +10,7 @@ export const myProjects = [
     RepoLink: "https://github.com/MohamedGlalAbdelazeem/Weather-App",
   },
   {
-    id: 1,
+    id:uuidv4(),
     categoria: "htmlcss",
     imgUrl: "/projecs/E-commerce2.png",
     title: "HTML5 & CSS3 & Bootstrap project",
@@ -16,7 +18,7 @@ export const myProjects = [
     RepoLink: "https://github.com/MohamedGlalAbdelazeem/E-commerce",
   },
   {
-    id: 2,
+    id:uuidv4(),
     categoria: "htmlcss",
     imgUrl: "/projecs/bootstrab.png",
     title: "HTML5 & CSS3 & Bootstrap project",
@@ -24,7 +26,7 @@ export const myProjects = [
     RepoLink: "https://github.com/MohamedGlalAbdelazeem/Bootsrap-Project",
   },
   {
-    id: 3,
+    id: uuidv4(),
     categoria: "htmlcss",
     imgUrl: "/projecs/bootstrab2.png",
     title: "HTML5 & CSS3 & Bootstrap project",
@@ -32,7 +34,7 @@ export const myProjects = [
     RepoLink: "https://github.com/MohamedGlalAbdelazeem/Bootstrap-Project",
   },
   {
-    id: 4,
+    id: uuidv4(),
     categoria: "htmlcss",
     imgUrl: "/projecs/project10.png",
     title: "HTML5 & CSS3  project",
@@ -40,7 +42,7 @@ export const myProjects = [
     RepoLink: "https://github.com/MohamedGlalAbdelazeem/landing_page_3",
   },
   {
-    id: 5,
+    id:uuidv4(),
     categoria: "htmlcss",
     imgUrl: "/projecs/project9.png",
     title: "HTML5 & CSS3 ",
@@ -48,7 +50,7 @@ export const myProjects = [
     RepoLink: "https://github.com/MohamedGlalAbdelazeem/Landing-page_2",
   },
   {
-    id: 6,
+    id:uuidv4(),
     categoria: "htmlcss",
     imgUrl: "/projecs/landing page.png",
     title: "HTML5 & CSS3 Landing page ",
@@ -56,7 +58,7 @@ export const myProjects = [
     RepoLink: "https://github.com/MohamedGlalAbdelazeem/landing_page1",
   },
   {
-    id: 7,
+   id:uuidv4(),
     categoria: "htmlcss",
     imgUrl: "/projecs/dashboard.png",
     title: "HTML5 & CSS3 Dashboard",
@@ -64,7 +66,15 @@ export const myProjects = [
     RepoLink: "https://github.com/MohamedGlalAbdelazeem/Dashboard",
   },
   {
-    id: 8,
+    id:uuidv4(),
+    categoria: "js",
+    imgUrl: "/projecs/Remoteera.png",
+    title: "Remoteera Website | Freelance Project ",
+    LiveDemo: "https://mohamedglalabdelazeem.github.io/Remoteera_website/",
+    RepoLink: "https://github.com/MohamedGlalAbdelazeem/Remoteera_website",
+  },
+  {
+    id:uuidv4(),
     categoria: "js",
     imgUrl: "/projecs/CRUDS.png",
     title: "javascrip CRUDP Project",
@@ -72,41 +82,7 @@ export const myProjects = [
     RepoLink: "https://github.com/MohamedGlalAbdelazeem/CRUDS_SYSTEM",
   },
   {
-    id: 16,
-    categoria: "js",
-    imgUrl: "/projecs/project4.png",
-    title: "javascrip Image Editor Project",
-    LiveDemo: "https://mohamedglalabdelazeem.github.io/Image-Editor/",
-    RepoLink: "https://github.com/MohamedGlalAbdelazeem/Image-Editor/tree/main",
-  },
-  {
-    id: 17,
-    categoria: "js",
-    imgUrl: "/projecs/project7.png",
-    title: "  Prayer-Timings Project",
-    LiveDemo: "https://mohamedglalabdelazeem.github.io/Prayer-Timings/",
-    RepoLink:
-      "https://github.com/MohamedGlalAbdelazeem/Prayer-Timings/tree/main",
-  },
-  {
-    id: 18,
-    categoria: "js",
-    imgUrl: "/projecs/project5.png",
-    title: "  Muslim-website Project",
-    LiveDemo: "https://mohamedglalabdelazeem.github.io/Muslim-website/",
-    RepoLink:
-      "https://github.com/MohamedGlalAbdelazeem/Muslim-website/tree/main",
-  },
-  {
-    id: 19,
-    categoria: "js",
-    imgUrl: "/projecs/E-commerce.png",
-    title: "Shoes Store Project",
-    LiveDemo: "https://mohamedglalabdelazeem.github.io/Shoes-Store/",
-    RepoLink: "https://github.com/MohamedGlalAbdelazeem/Shoes-Store/tree/main",
-  },
-  {
-    id: 20,
+    id:uuidv4(),
     categoria: "js",
     imgUrl: "/projecs/project3.png",
     title: " car E-commerce Project",
@@ -115,7 +91,43 @@ export const myProjects = [
       "https://github.com/MohamedGlalAbdelazeem/E-Commerce-for-cars/tree/main",
   },
   {
-    id: 130,
+    id:uuidv4(),
+    categoria: "js",
+    imgUrl: "/projecs/E-commerce.png",
+    title: "Shoes Store Project",
+    LiveDemo: "https://mohamedglalabdelazeem.github.io/Shoes-Store/",
+    RepoLink: "https://github.com/MohamedGlalAbdelazeem/Shoes-Store/tree/main",
+  },
+  {
+    id:uuidv4(),
+    categoria: "js",
+    imgUrl: "/projecs/project4.png",
+    title: "javascrip Image Editor Project",
+    LiveDemo: "https://mohamedglalabdelazeem.github.io/Image-Editor/",
+    RepoLink: "https://github.com/MohamedGlalAbdelazeem/Image-Editor/tree/main",
+  },
+  {
+    id:uuidv4(),
+    categoria: "js",
+    imgUrl: "/projecs/project7.png",
+    title: "  Prayer-Timings Project",
+    LiveDemo: "https://mohamedglalabdelazeem.github.io/Prayer-Timings/",
+    RepoLink:
+      "https://github.com/MohamedGlalAbdelazeem/Prayer-Timings/tree/main",
+  },
+  {
+    id:uuidv4(),
+    categoria: "js",
+    imgUrl: "/projecs/project5.png",
+    title: "  Muslim-website Project",
+    LiveDemo: "https://mohamedglalabdelazeem.github.io/Muslim-website/",
+    RepoLink:
+      "https://github.com/MohamedGlalAbdelazeem/Muslim-website/tree/main",
+  },
+ 
+ 
+  {
+    id: uuidv4(),
     categoria: "react",
     imgUrl: "/public/projecs/MyProfile.png",
     title: "My_Portfolio",
@@ -123,7 +135,7 @@ export const myProjects = [
     RepoLink: "https://github.com/MohamedGlalAbdelazeem/My_Portfolio",
   },
   {
-    id: 13,
+    id:uuidv4(),
     categoria: "react",
     imgUrl: "/projecs/Todolist.png",
     title: "React ToDoApp",
@@ -132,7 +144,7 @@ export const myProjects = [
   },
 
   {
-    id: 30,
+    id:uuidv4(),
     categoria: "react",
     imgUrl: "/projecs/loan form app.png",
     title: "Loan App Form App ",
@@ -141,7 +153,7 @@ export const myProjects = [
       "https://github.com/MohamedGlalAbdelazeem/Loan-app-form/tree/main",
   },
   {
-    id: 160,
+    id: uuidv4(),
     categoria: "react",
     imgUrl: "/projecs/xoo.png",
     title: "X-O Game By React",
