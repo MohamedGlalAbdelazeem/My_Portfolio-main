@@ -28,6 +28,7 @@ const Main = () => {
                     <button onClick={() => { handleClick("react") }} className={isActive === "react" ? active : ""}>React Js</button>
                     <button onClick={() => { handleClick("js") }} className={isActive === "js" ? active : ""}>javascript</button>
                     <button onClick={() => { handleClick("htmlcss") }} className={isActive === "htmlcss" ? active : ""}>HTML5&CSS3</button>
+                    <button onClick={() => { handleClick("wordpress") }} className={isActive === "wordpress" ? active : ""}>WordPress</button>
 
                 </section>
                 <section className='rigth-section '>

@@ -1,21 +1,38 @@
 import { v4 as uuidv4 } from 'uuid';
 
 export const myProjects = [
+ 
   {
     id:uuidv4(),
-    categoria: "react",
-    imgUrl: "/projecs/weather app.png",
-    title: "weather By React",
-    LiveDemo: "https://weatherappwithreact1.netlify.app/",
-    RepoLink: "https://github.com/MohamedGlalAbdelazeem/Weather-App",
+    categoria: "htmlcss",
+    imgUrl: "/projecs/freelance.png",
+    title: "HTML5 & CSS3 & Bootstrap |Landing page_1| Freelance project",
+    LiveDemo: "https://mohamedglalabdelazeem.github.io/Freelance-landing-page_1/",
+    RepoLink: "https://github.com/MohamedGlalAbdelazeem/Freelance-landing-page_1",
   },
   {
     id:uuidv4(),
     categoria: "htmlcss",
-    imgUrl: "/projecs/E-commerce2.png",
-    title: "HTML5 & CSS3 & Bootstrap project",
-    LiveDemo: "https://mohamedglalabdelazeem.github.io/E-commerce/",
-    RepoLink: "https://github.com/MohamedGlalAbdelazeem/E-commerce",
+    imgUrl: "/projecs/freelance2.png",
+    title: "HTML5 & CSS3 & Bootstrap |Landing page_2| Freelance project",
+    LiveDemo: "https://mohamedglalabdelazeem.github.io/Freelance-landingpage_2/",
+    RepoLink: "https://github.com/MohamedGlalAbdelazeem/Freelance-landingpage_2",
+  },
+  {
+    id:uuidv4(),
+    categoria: "htmlcss",
+    imgUrl: "/projecs/freelance3.png",
+    title: "HTML5 & CSS3 & Bootstrap |Landing page_3| Freelance project",
+    LiveDemo: "https://mohamedglalabdelazeem.github.io/Freelance-Landinpage_3/",
+    RepoLink: "https://github.com/MohamedGlalAbdelazeem/Freelance-Landinpage_3",
+  },
+  {
+    id:uuidv4(),
+    categoria: "htmlcss",
+    imgUrl: "/projecs/freelance4.png",
+    title: "HTML5 & CSS3 & Bootstrap |Landing page_4| Freelance project",
+    LiveDemo: "https://mohamedglalabdelazeem.github.io/Freelance-landingpage_4/",
+    RepoLink: "https://github.com/MohamedGlalAbdelazeem/Freelance-landingpage_4",
   },
   {
     id:uuidv4(),
@@ -142,7 +159,14 @@ export const myProjects = [
     LiveDemo: "",
     RepoLink: "",
   },
-
+  {
+    id:uuidv4(),
+    categoria: "react",
+    imgUrl: "/projecs/weather app.png",
+    title: "weather By React",
+    LiveDemo: "https://weatherappwithreact1.netlify.app/",
+    RepoLink: "https://github.com/MohamedGlalAbdelazeem/Weather-App",
+  },
   {
     id:uuidv4(),
     categoria: "react",
