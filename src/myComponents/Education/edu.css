@@ -1,3 +1,8 @@
+.main-edu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .titl{
     text-align: center;
     color: var(--hover);
@@ -11,7 +16,7 @@
  .edu span{
     color: gold;
  }
-.edu h2{
+.edu .special{
     margin: 1rem 0;
     text-decoration: underline;
     color: rgb(0, 119, 255);
@@ -22,4 +27,24 @@
     margin: 1rem 0;
     color: gray;
     padding-bottom: .8rem;
+}
+
+.edu .second{
+    width: 50%;
+
+}
+.edu .second  img{
+    width: 60%;
+    border: 13px double gold;
+    padding: 1rem;
+    border-radius: 5px 120px;
+}
+
+@media (max-width:750px) {
+    .edu{
+       flex-direction: column;
+    }
+    .edu .second  img{
+        width: 100%;
+    }
 }

@@ -37,6 +37,7 @@ export default function Skills() {
                 <img src={a} />
                 <img src={html} />
                 <img src={css} />
+                <img src={"https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/18df3d15-0497-4661-b2e1-bfeba3a21cd2.jpeg?w=128&h=128&fit=max&dpr=3&auto=format&q=50"} />
                 <img src={t} />
                 <img src={boots} />
                 <img src={git} />

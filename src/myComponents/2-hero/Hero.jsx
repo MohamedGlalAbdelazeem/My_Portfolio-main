@@ -13,7 +13,7 @@ const Hero = () => {
         <h1 className="name">
           <span>Eng.</span>Mohamed <span>Galal</span> Abdelazeem|
         </h1>
-        <h3> Front-End Developer || wordpress </h3>
+        <h3> Software engineer specializing in front-end development</h3>
         <p className="sub-title">
           As Web Developer specializing in front end development. Experienced
           with all stages of the development cycle for dynamic web projects.
