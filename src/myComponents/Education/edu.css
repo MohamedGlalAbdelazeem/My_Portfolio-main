@@ -41,10 +41,11 @@
 }
 
 @media (max-width:750px) {
-    .edu{
+    .main-edu{
        flex-direction: column;
+       
     }
-    .edu .second  img{
+    .main-edu .second  img{
         width: 100%;
     }
 }
