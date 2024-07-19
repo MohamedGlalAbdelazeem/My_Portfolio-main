@@ -21,7 +21,6 @@
     width: 80%;
     max-height:20%;
     object-fit: cover;
-    border-radius: 30px;
   }
   
   .autoplay-progress {

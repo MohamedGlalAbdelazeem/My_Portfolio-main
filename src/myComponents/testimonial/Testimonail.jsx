@@ -7,6 +7,7 @@ import rating1 from "../../../public/rating/rate1.png"
 import rating2 from "../../../public/rating/rate2.png"
 import rating3 from "../../../public/rating/rate3.png"
 import rating4 from "../../../public/rating/rate4.png"
+import rating5 from "../../../public/rating/rate5.png"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -34,7 +35,7 @@ function Testimonail() {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -45,6 +46,9 @@ function Testimonail() {
         onAutoplayTimeLeft={onAutoplayTimeLeft}
         className="mySwiper"
       >
+          <SwiperSlide>
+            <img src={rating5} alt="" srcset="" />
+        </SwiperSlide>
         <SwiperSlide>
             <img src={rating1} alt="" srcset="" />
         </SwiperSlide>
